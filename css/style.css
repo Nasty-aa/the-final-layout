@@ -1488,23 +1488,32 @@ body {
         min-height: 150px;
     }
 
+    .waxom-header-logo-image {
+        width: 130px;
+        height: 150px;
+    }
+
+    .waxom-header-logo-span {
+        font-size: 75px;
+    }
+
     .waxom-header-nav {
         display: none;
     }
-    
-        /*Мобильное меню*/
+
+    /*Мобильное меню*/
     .waxom-header-nav {
         display: block;
         position: fixed;
         list-style: none;
-        padding: 10px;
+        padding: 20px;
         margin: 0;
         box-sizing: border-box;
-        width: 200px;
+        width: 600px;
         background-color: #eee;
         height: 100%;
         top: 0;
-        right: -200px;
+        right: -600px;
         transition: right .2s;
         z-index: 2;
         -webkit-transform: translateZ(0);
@@ -1520,13 +1529,13 @@ body {
         background-color: #666;
         padding: 10px;
         position: fixed;
-        top: 5px;
-        right: 5px;
+        top: 15px;
+        right: 15px;
         cursor: pointer;
         transition: right .23s;
         z-index: 3;
-        width: 50px;
-        height: 50px;
+        width: 130px;
+        height: 70px;
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
         -webkit-box-sizing: border-box;
@@ -1538,11 +1547,15 @@ body {
         flex-direction: column;
     }
 
+    .waxom-header-a {
+        font-size: 70px;
+    }
+
     .btn-menu span {
         display: block;
-        height: 5px;
+        height: 10px;
         background-color: #fff;
-        margin: 5px 0 0;
+        margin: 10px 0 0;
         transition: all .1s linear .23s;
         position: relative;
     }
@@ -1552,7 +1565,7 @@ body {
     }
 
     .hidden-menu-ticker:checked ~ .btn-menu {
-        right: 160px;
+        right: 500px;
     }
 
     .hidden-menu-ticker:checked ~ .waxom-header-nav {
@@ -1597,10 +1610,47 @@ body {
         width: 40%;
     }
 
+    .icons-block-image {
+        height: 85px;
+    }
+
+    .icons-block-figure:first-child {
+        margin-bottom: 30px;
+    }
+
+    .icons-block-figure:nth-child(2) {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .icons-block-figcaption-span {
+        font-size: 65px;
+    }
+
+    .icons-block-figcaption-p {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .icons-block-figure:after {
+        width: 150px;
+        height: 5px;
+    }
+
     /*Второй блок*/
     /*Третий блок*/
     .waxom-is-realization {
         display: none;
+    }
+
+    .our-projects-span {
+        font-size: 85px;
+    }
+
+    .our-projects-p {
+        width: 950px;
+        font-size: 40px;
+        line-height: 55px;
     }
 
     /*Третий блок*/
@@ -1640,13 +1690,59 @@ body {
     }
 
     .video-wrp {
-        left: 458px;
+        width: 1000px;
+        left: 250px;
+        top: 100px;
+    }
+
+    .video-span {
+        font-size: 65px;
+    }
+
+    .video-button {
+        width: 150px;
+        height: 150px;
+    }
+
+    .video-a-svg {
+        width: 120px;
+        height: 120px;
+    }
+
+    .video-p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .video-time {
+        font-size: 25px;
     }
 
     /*Шестой блок*/
     /*Седьмой блок*/
     .excellent-for-mobile {
         padding-left: 170px;
+    }
+
+    .excellent-for-mobile-span {
+        font-size: 60px;
+        margin-top: 0px;
+    }
+
+    .excellent-for-mobile-p {
+        font-size: 35px;
+        line-height: 35px;
+        width: 800px;
+    }
+
+    .excellent-for-mobile-list {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .excellent-for-mobile-list:before {
+        width: 30px;
+        height: 30px;
     }
 
     /*Седьмой блок*/
@@ -1657,6 +1753,16 @@ body {
 
     /*Восьмой блок*/
     /*Девятый блок*/
+    .recent-posts-span {
+        font-size: 65px;
+    }
+
+    .recent-posts-p {
+        width: 80%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
     .recent-posts-wrp {
         flex-wrap: wrap;
     }
@@ -1673,11 +1779,54 @@ body {
     }
 
     .recent-posts-figcaption {
-        width: 370px;
+        width: 600px;
+    }
+
+    .recent-posts-figcaption-span {
+        font-size: 45px;
+    }
+
+    .recent-posts-figcaption-p {
+        width: 95%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .recent-posts-figcaption-a {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .recent-posts-figcaption-a-svg {
+        width: 8px;
+        height: 11px;
+    }
+
+    .recent-posts-img {
+        width: 600px;
+        height: 350px;
     }
 
     .recent-posts-article-date {
-        left: 573px;
+        left: 455px;
+    }
+
+    .recent-posts-article-day {
+        width: 75px;
+        height: 55px;
+    }
+
+    .recent-posts-article-day-span {
+        font-size: 35px;
+    }
+
+    .recent-posts-article-month {
+        width: 75px;
+        height: 45px;
+    }
+
+    .recent-posts-article-month-span {
+        font-size: 25px;
     }
 
     .recent-posts-pagination-left {
@@ -1701,6 +1850,29 @@ body {
     }
 
     /*Одиннадцатый блок*/
+    /*Двенадцатый блок*/
+    .footer {
+        height: 100px;
+        box-sizing: border-box;
+        padding: 20px 50px;
+    }
+
+    .footer-left-list {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .footer-left-a {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .footer-right-p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    /*Двенадцатый блок*/
 }
 
 /*Мобильная версия*/
